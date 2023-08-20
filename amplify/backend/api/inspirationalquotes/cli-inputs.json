@@ -5,6 +5,15 @@
     "serviceName": "AppSync",
     "defaultAuthType": {
       "mode": "AWS_IAM"
-    }
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 7,
+        "apiKeyExpirationDate": "2023-08-27T16:43:36.388Z",
+        "keyDescription": "API key for inspirational quote generator"
+      }
+    ]
   }
 }

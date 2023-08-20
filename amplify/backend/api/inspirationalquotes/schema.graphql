@@ -4,7 +4,7 @@
 type Query {
   generateAQuote(input: AWSJSON!): String
     @auth(rules: [{ allow: public, provider: iam }])
-    @function(name: "inspirationalquotes-${env}")
+    @function(name: "inspirationalQuotesLambda-${env}")
 }
 
 type QuoteAppData
