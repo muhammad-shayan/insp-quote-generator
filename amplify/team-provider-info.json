@@ -23,6 +23,12 @@
       },
       "api": {
         "inspirationalquotes": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3epe7wri6ffbj",
+          "type": "cicd"
+        }
       }
     }
   }
