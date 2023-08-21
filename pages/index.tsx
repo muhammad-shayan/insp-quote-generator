@@ -10,9 +10,6 @@ import {
   QuoteGenText,
   QuoteGenTitle,
 } from "../components/quoteGenerator/QuoteGeneratorElements";
-import Cloudy1 from "../assets/cloud-and-thunder.png";
-import Cloudy2 from "../assets/cloudy-weather.png";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { API } from "aws-amplify";
@@ -126,13 +123,19 @@ export default function Home() {
       </Head>
       <main>
         <BackgroundContainer>
-          <Image
-            src={Cloudy1}
+          <img
+            src="https://res.cloudinary.com/shayanbukhari/image/upload/v1692635911/cloud-and-thunder_ttuahb.png"
             height="300"
+            width="300"
             alt="cloudy1"
             style={{ marginLeft: "70px" }}
           />
-          <BgImage src={Cloudy2} height="250" alt="cloudy2" />
+          <BgImage
+            src="https://res.cloudinary.com/shayanbukhari/image/upload/v1692635911/cloudy-weather_jsqeya.png"
+            height="250"
+            width="500"
+            alt="cloudy2"
+          />
 
           <QuoteGenContainer>
             <QuoteGenText>

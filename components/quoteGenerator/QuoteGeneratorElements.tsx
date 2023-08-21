@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Image from "next/image";
 import { Box, CircularProgress } from "@mui/material";
 import Lottie from "react-lottie-player";
 
@@ -22,7 +21,7 @@ export const BackgroundContainer = styled.div`
   }
 `;
 
-export const BgImage = styled(Image)`
+export const BgImage = styled.img`
   position: fixed;
   z-index: 1;
   bottom: 50px;
